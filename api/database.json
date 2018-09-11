@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "email": "ds2q88@gmail.com",
+      "username": "moon",
+      "password": "moon",
+      "id": 1
+    },
+    {
+      "email": "bloop@gmail.com",
+      "username": "bloop",
+      "password": "bloop",
+      "id": 2
+    }
+  ],
+  "establishments": [
+    {
+      "establishmentID": 1,
+      "name": "Taquería El Amigo José",
+      "address": "2198 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 606-5334",
+      "description": "Delicious food truck with many options. It has a small outside seating area for visitors. Two grills keep the area smelling delicious",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "establishmentID": 2,
+      "name": "Restaurante El Paraiso",
+      "address": "2209 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 290-7608",
+      "description": "Classic hispaic food located convenienetly next to 440. Come have a drink instead of being traffic",
+      "establishmentTypeID": 1,
+      "beer": "Yes",
+      "liquor": "Yes",
+      "mixDrinks": "Yes",
+      "freeSalsa": "Yes",
+      "PaymentTypeID": 3
+    }
+  ],
+  "messages": [
+    {
+      "userId": 1,
+      "establishmentID": 2,
+      "message": "MMMMMMMhMMMMMMM....soo good",
+      "timeStamp": "timestamp",
+      "id": 1
+    }
+  ],
+  "typeOfestablishment": [
+    {
+      "establishmentTypeID": 1,
+      "type": "Restaurant"
+    },
+    {
+      "establishmentTypeID": 2,
+      "type": "Food Truck"
+    }
+  ],
+  "paymentType": [
+    {
+      "PaymentTypeID": 1,
+      "type": "Cash"
+    },
+    {
+      "PaymentTypeID": 2,
+      "type": "Credit/Debit Cards"
+    },
+    {
+      "PaymentTypeID": 3,
+      "type": "Cash or Credit/Debit Cards"
+    }
+  ]
+}
