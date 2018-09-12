@@ -7,6 +7,7 @@ import establishmentManager from '../modules/establishmentsManager'
 import MainView from './MainView'
 import EstablishmentCard from "./establishment/EstablishmentCard";
 import MessageManager from '../modules/uniqueMessage';
+import MessageEdit from '../components/messages/MessageEdit';
 
 
 export default class ApplicationViews extends Component {
@@ -42,6 +43,24 @@ export default class ApplicationViews extends Component {
         messages: messages
     }))
 
+    editMessage = (id, messageObject) => MessageManager.patch(id, messageObject)
+    .then(() => MessageManager.getAll())
+    .then(messages => this.setState({
+        messages: messages
+    }))
+
+    deleteMessage = id => {
+        return fetch(`http://localhost:5002/messages/${id}`, {
+            method: "DELETE"
+        })
+            .then(e => e.json())
+            .then(() => fetch(`http://localhost:5002/messages`))
+            .then(e => e.json())
+            .then(messages => this.setState({
+                messages: messages
+            }))
+    }
+
     render() {
 
         return (
@@ -63,8 +82,14 @@ export default class ApplicationViews extends Component {
                 }
             }} />
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
-                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage}/>
+                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage} deleteMessage={this.deleteMessage}/>
                     }} />
+            <Route path="/mainview/message-edit/:messageId(\d+)" render={(props) => {
+                        return <MessageEdit {...props}
+                        edit={this.editMessage}
+                        messages={this.state.messages}/>
+                     }} />
+
 
         </React.Fragment>
         )

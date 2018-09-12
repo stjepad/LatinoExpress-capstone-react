@@ -39,8 +39,11 @@ export default class MessageList extends Component {
                                 className="btn btn-success"
                             onClick={() =>  this.props.history.push(`/mainview/message-edit/${message.id}`)}
                             className="card-link">Edit</button>
-                            <button onClick={() => this.props.deleteTask(this.props.task.id)}>Delete Task</button>
-
+                            {/* <button onClick={() => this.props.deleteMessage(this.props.message.id)}>Delete</button> */}
+                            <a href="#"
+                            onClick={() => this.props.deleteMessage(message.id)
+                                            .then(() => this.props.history.push("/mainView"))}
+                            className="card-link">Delete</a>
                             </div>
                         </div>
                     </div>
@@ -52,3 +55,4 @@ export default class MessageList extends Component {
         )
     }
 }
+
