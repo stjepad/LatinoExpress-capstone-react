@@ -141,21 +141,8 @@
   ],
   "messages": [
     {
-      "userId": 1,
-      "establishmentID": 2,
-      "message": "MMMMMMMhMMMMMMM....soo good",
-      "timeStamp": "timestamp",
-      "id": 1
-    },
-    {
       "username": "blaap",
-      "message": "bloop",
-      "date": 1536771448277,
-      "id": 2
-    },
-    {
-      "username": "blaap",
-      "message": "thanks !",
+      "message": "I can edit now BIATCH!",
       "date": 1536771461761,
       "id": 3
     },
