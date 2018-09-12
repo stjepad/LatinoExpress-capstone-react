@@ -14,7 +14,7 @@ class MainView extends Component {
 
 
                 <Establishment {...this.props}/>
-                <Messages {...this.props}/>
+                {/* <Messages {...this.props}/> */}
 
             </React.Fragment>
         )

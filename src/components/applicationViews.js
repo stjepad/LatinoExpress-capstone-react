@@ -6,6 +6,7 @@ import establishments from './establishment/Establishment'
 import establishmentManager from '../modules/establishmentsManager'
 import MainView from './MainView'
 import EstablishmentCard from "./establishment/EstablishmentCard";
+import MessageManager from '../modules/uniqueMessage';
 
 
 export default class ApplicationViews extends Component {
@@ -24,7 +25,22 @@ export default class ApplicationViews extends Component {
             establishments: allEstablishments
         })
     })
+
+    MessageManager.getAll().then(messages => {
+        this.setState({
+            messages: messages
+        })
+    })
+
+
+
     }
+
+    addMessage = message => MessageManager.post(message)
+    .then(() => MessageManager.getAll(this.user().id))
+    .then(messages => this.setState({
+        messages: messages
+    }))
 
     render() {
 
@@ -33,7 +49,7 @@ export default class ApplicationViews extends Component {
             <React.Fragment>
             <Route exact path="/" render={(props) => {
                 if (this.isAuthenticated()) {
-                    return <MainView {...props} messages={this.state.messages} establishments={this.state.establishments} />
+                    return <MainView {...props}  establishments={this.state.establishments} />
                 } else {
                     return <Redirect to="/login" />
                 }
@@ -41,13 +57,13 @@ export default class ApplicationViews extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/mainview" render={(props) => {
                 if (this.isAuthenticated()) {
-                    return <MainView {...props} messages={this.state.messages} establishments={this.state.establishments}/>
+                    return <MainView {...props}  establishments={this.state.establishments}/>
                 } else {
                     return <Redirect to="/login" />
                 }
             }} />
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
-                        return <EstablishmentCard {...props} establishments={this.state.establishments} />
+                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage}/>
                     }} />
 
         </React.Fragment>

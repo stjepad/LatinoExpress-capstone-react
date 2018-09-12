@@ -1,24 +1,39 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export default class Messages extends Component {
+// export default class Messages extends Component {
+//     render() {
+//         return (
+//             <div className="EstablismentLists">
+//                 <h3 className="EstablishmentFilter"> Messages </h3>
+
+//             </div>
+//         );
+//     }
+// }
+
+import React, { Component } from 'react'
+// import './Message.css'
+// import {Link} from "react-router-dom"
+// import MessageManager from '../../modules/MessageManager';
+import MessageForm from './MessageForm';
+import MessageList from './MessageList';
+
+
+
+class Message extends Component {
+
+
+
     render() {
         return (
-            <div className="EstablismentLists">
-                <h3 className="EstablishmentFilter"> Messages </h3>
-                {/* <div className="employeesDetails">{
-                this.props.employees.map(employee =>
-                    <div id={`employee--${employee.id}`} key={employee.id}>
-                        {employee.name}
-                       <p> <button
-                                    onClick={() => this.props.deleteEmployee(employee.id)}
-                                    className="card-link">Fire
-                                    </button>
-                                    </p>
-                    </div>
-                )
-            }
-            </div> */}
-            </div>
-        );
+            <React.Fragment>
+
+                <MessageList {...this.props}/>
+                <MessageForm {...this.props}/>
+
+            </React.Fragment>
+        )
     }
 }
+
+export default Message
