@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router-dom'
-import login from './components/login/Login';
 import './App.css';
 import ApplicationViews from './components/ApplicationViews'
+import NavBarForm from './components/navBar/NavBarForm'
 
 class App extends Component {
 
@@ -12,6 +11,7 @@ class App extends Component {
     return (
 
       <React.Fragment>
+        <NavBarForm/>
         <ApplicationViews />
       </React.Fragment>
     );
