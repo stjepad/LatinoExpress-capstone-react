@@ -39,7 +39,7 @@ export default class MessageEdit extends Component {
             }
 
 
-            this.props.edit(this.props.match.params.messageId, Editmessage).then(() => this.props.history.push("/mainview"))
+            this.props.edit(this.props.match.params.messageId, Editmessage).then(() => this.props.history.goBack())
 
         }
     componentDidMount() {

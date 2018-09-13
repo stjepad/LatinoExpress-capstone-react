@@ -27,7 +27,9 @@ export default class MessageForm extends Component {
         const newMessage = {
             username: this.user().username,
             message: this.state.message,
-            date: this.state.date
+            date: this.state.date,
+            establishmentID: parseInt(this.props.match.params.establishmentId)
+
         }
             this.setState({
                 username: "",

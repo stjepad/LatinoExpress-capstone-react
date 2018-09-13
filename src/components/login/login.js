@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import LoginManager from "../../modules/loginManager"
+import LoginCSS from "../login/Login.css"
 
 
 
@@ -118,6 +119,7 @@ export default class Login extends Component {
 
     render() {
         return (
+
             <form onSubmit={this.handleLogin}>
                 <h1 className="h3 mb-3 font-weight-normal">Please Log In</h1>
                 <label htmlFor="inputEmail">

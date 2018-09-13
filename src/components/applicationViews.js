@@ -38,7 +38,7 @@ export default class ApplicationViews extends Component {
     }
 
     addMessage = message => MessageManager.post(message)
-    .then(() => MessageManager.getAll(this.user().id))
+    .then(() => MessageManager.getAll())
     .then(messages => this.setState({
         messages: messages
     }))
@@ -82,7 +82,7 @@ export default class ApplicationViews extends Component {
                 }
             }} />
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
-                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage} deleteMessage={this.deleteMessage}/>
+                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage} deleteMessage={this.deleteMessage} />
                     }} />
             <Route path="/mainview/message-edit/:messageId(\d+)" render={(props) => {
                         return <MessageEdit {...props}

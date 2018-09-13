@@ -26,7 +26,7 @@ export default class MessageList extends Component {
 
             <section className="messages">
             {
-                this.state.messages.map(message =>
+                this.props.uniqueMessages.map(message =>
                     <div key={message.id} className="card">
                         <div className="card-body">
                             <div className="card-title">
@@ -42,7 +42,11 @@ export default class MessageList extends Component {
                             {/* <button onClick={() => this.props.deleteMessage(this.props.message.id)}>Delete</button> */}
                             <a href="#"
                             onClick={() => this.props.deleteMessage(message.id)
-                                            .then(() => this.props.history.push("/mainView"))}
+                                // .then(MessageManager.getAll('messages')
+                                // .then(messages => {
+                                //   this.setState({ messages: messages });
+                                // }))
+                                            }
                             className="card-link">Delete</a>
                             </div>
                         </div>

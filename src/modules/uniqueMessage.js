@@ -7,8 +7,8 @@ export default Object.create(null, {
         }
     },
     getAll: {
-        value: function () {
-            return fetch(`${remoteURL}/messages`).then(e => e.json())
+        value: function (id) {
+            return fetch(`${remoteURL}/messages?establishmentID=${id}`).then(e => e.json())
         }
     },
     delete: {

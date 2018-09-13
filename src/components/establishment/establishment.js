@@ -7,7 +7,7 @@ export default class Establishment extends Component {
             <div className="EstablismentLists">
                 {this.props.establishments.map(establishment =>
                 <div id={`establishment--${establishment.id}`} key={establishment.id}>
-                    <Link className="nav-link" to={`/establishments/${establishment.establishmentID}`}>{establishment.name}</Link>
+                    <Link className="nav-link" to={`/establishments/${establishment.id}`}>{establishment.name}</Link>
                     </div>)
 
     }

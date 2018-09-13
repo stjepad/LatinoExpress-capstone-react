@@ -17,6 +17,7 @@ import React, { Component } from 'react'
 // import MessageManager from '../../modules/MessageManager';
 import MessageForm from './MessageForm';
 import MessageList from './MessageList';
+// import MessageEdit from './MessageEdit';
 
 
 
@@ -30,6 +31,7 @@ class Message extends Component {
 
                 <MessageList {...this.props}/>
                 <MessageForm {...this.props}/>
+                {/* <MessageEdit {...this.props}/> */}
 
             </React.Fragment>
         )

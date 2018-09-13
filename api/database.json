@@ -23,11 +23,23 @@
       "username": "blaap",
       "password": "bleep",
       "id": 4
+    },
+    {
+      "email": "g@g.com",
+      "username": "aa",
+      "password": "a",
+      "id": 5
+    },
+    {
+      "email": "a@ab.com",
+      "username": "meow",
+      "password": "meow",
+      "id": 6
     }
   ],
   "establishments": [
     {
-      "establishmentID": 1,
+      "id": 1,
       "name": "Taquería El Amigo José",
       "address": "2198 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -41,7 +53,7 @@
       "PaymentTypeID": 1
     },
     {
-      "establishmentID": 2,
+      "id": 2,
       "name": "Restaurante El Paraiso",
       "address": "2209 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -55,7 +67,7 @@
       "PaymentTypeID": 3
     },
     {
-      "establishmentID": 3,
+      "id": 3,
       "name": "La Fondita Express",
       "address": "2442 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -69,7 +81,7 @@
       "PaymentTypeID": 1
     },
     {
-      "establishmentID": 4,
+      "id": 4,
       "name": "Delicias Las Catrachas",
       "address": "2518 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -83,7 +95,7 @@
       "PaymentTypeID": 3
     },
     {
-      "establishmentID": 5,
+      "id": 5,
       "name": "Nashville Venezuela Food",
       "address": "2244, 2604 Nolensville Pike suite a, Nashville, TN 37211",
       "hours": "shit",
@@ -97,7 +109,7 @@
       "PaymentTypeID": 3
     },
     {
-      "establishmentID": 6,
+      "id": 6,
       "name": "La Hacienda Taqueria",
       "address": "2615 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -111,7 +123,7 @@
       "PaymentTypeID": 3
     },
     {
-      "establishmentID": 7,
+      "id": 7,
       "name": "Taqueria San Luis",
       "address": "2624 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -125,7 +137,7 @@
       "PaymentTypeID": 1
     },
     {
-      "establishmentID": 8,
+      "id": 8,
       "name": "Taqueria San Luis",
       "address": "2624 Nolensville Pike, Nashville, TN 37211",
       "hours": "shit",
@@ -141,16 +153,53 @@
   ],
   "messages": [
     {
-      "username": "blaap",
-      "message": "I can edit now BIATCH!",
-      "date": 1536771461761,
-      "id": 3
+      "username": "moon",
+      "message": "hello!",
+      "date": 1536868575300,
+      "establishmentID": 1,
+      "id": 6
     },
     {
-      "username": "blaap",
-      "message": "zing",
-      "date": 1536775520290,
-      "id": 4
+      "username": "moon",
+      "message": "mmmm sooo good",
+      "date": 1536871074348,
+      "establishmentID": 6,
+      "id": 8
+    },
+    {
+      "username": "moon",
+      "message": "wooooow",
+      "date": 1536871084866,
+      "establishmentID": 8,
+      "id": 9
+    },
+    {
+      "username": "moon",
+      "message": "zing!",
+      "date": 1536871112326,
+      "establishmentID": 2,
+      "id": 10
+    },
+    {
+      "username": "moon",
+      "message": "bllop",
+      "date": 1536871594487,
+      "establishmentID": 1,
+      "id": 11
+    },
+    {
+      "username": "meow",
+      "message": "i hated it!",
+      "date": 1536871734756,
+      "establishmentID": 1,
+      "id": 13
+    },
+    {
+      "username": "meow",
+      "message": "bloop",
+      "date": 1536872845963,
+      "establishmentID": 5,
+      "id": 14
     }
   ],
   "typeOfestablishment": [
