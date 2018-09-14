@@ -74,6 +74,7 @@ export default class ApplicationViews extends Component {
                 }
             }} />
             <Route exact path="/login" component={Login} />
+
             <Route exact path="/mainview" render={(props) => {
                 if (this.isAuthenticated()) {
                     return <MainView {...props}  establishments={this.state.establishments}/>
@@ -82,12 +83,20 @@ export default class ApplicationViews extends Component {
                 }
             }} />
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
+                if (this.isAuthenticated()) {
                         return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage} deleteMessage={this.deleteMessage} />
+                    } else {
+                        return <Redirect to="/login" />
+                    }
                     }} />
             <Route path="/mainview/message-edit/:messageId(\d+)" render={(props) => {
+                 if (this.isAuthenticated()) {
                         return <MessageEdit {...props}
                         edit={this.editMessage}
                         messages={this.state.messages}/>
+                    } else {
+                        return <Redirect to="/login" />
+                    }
                      }} />
 
 

@@ -35,6 +35,12 @@
       "username": "meow",
       "password": "meow",
       "id": 6
+    },
+    {
+      "email": "meow1",
+      "username": "meow1",
+      "password": "meow1",
+      "id": 7
     }
   ],
   "establishments": [
@@ -200,6 +206,20 @@
       "date": 1536872845963,
       "establishmentID": 5,
       "id": 14
+    },
+    {
+      "username": "meow",
+      "message": "2",
+      "date": "",
+      "establishmentID": 1,
+      "id": 15
+    },
+    {
+      "username": "moon",
+      "message": "bloop",
+      "date": 1536938735029,
+      "establishmentID": 8,
+      "id": 16
     }
   ],
   "typeOfestablishment": [
