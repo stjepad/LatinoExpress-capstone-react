@@ -1,4 +1,7 @@
-background {
-    background-image: url(../login/Food-Collage.jpg);
+.login {
+    background-image: url(../login/Maze-Maker_1.jpg);
     background-color: #cccccc;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: round;
  }
