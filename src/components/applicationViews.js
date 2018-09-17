@@ -27,21 +27,21 @@ export default class ApplicationViews extends Component {
         })
     })
 
-    MessageManager.getAll().then(messages => {
-        this.setState({
-            messages: messages
-        })
-    })
+    // MessageManager.getAll().then(messages => {
+    //     this.setState({
+    //         messages: messages
+    //     })
+    // })
 
 
 
     }
 
-    addMessage = message => MessageManager.post(message)
-    .then(() => MessageManager.getAll())
-    .then(messages => this.setState({
-        messages: messages
-    }))
+    // addMessage = message => MessageManager.post(message)
+    // .then(() => MessageManager.getAll())
+    // .then(messages => this.setState({
+    //     messages: messages
+    // }))
 
     editMessage = (id, messageObject) => MessageManager.patch(id, messageObject)
     .then(() => MessageManager.getAll())
@@ -49,23 +49,24 @@ export default class ApplicationViews extends Component {
         messages: messages
     }))
 
-    deleteMessage = id => {
-        return fetch(`http://localhost:5002/messages/${id}`, {
-            method: "DELETE"
-        })
-            .then(e => e.json())
-            .then(() => fetch(`http://localhost:5002/messages`))
-            .then(e => e.json())
-            .then(messages => this.setState({
-                messages: messages
-            }))
-    }
+    // deleteMessage = id => {
+    //     return fetch(`http://localhost:5002/messages/${id}`, {
+    //         method: "DELETE"
+    //     })
+    //         .then(e => e.json())
+    //         .then(() => fetch(`http://localhost:5002/messages`))
+    //         .then(e => e.json())
+    //         .then(messages => this.setState({
+    //             messages: messages
+    //         }))
+    // }
 
     render() {
 
         return (
 
             <React.Fragment>
+                {/* <NavBarForm/> */}
             <Route exact path="/" render={(props) => {
                 if (this.isAuthenticated()) {
                     return <MainView {...props}  establishments={this.state.establishments} />
@@ -84,7 +85,12 @@ export default class ApplicationViews extends Component {
             }} />
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
                 if (this.isAuthenticated()) {
-                        return <EstablishmentCard {...props} establishments={this.state.establishments} messages={this.state.messages} addMessage={this.addMessage} deleteMessage={this.deleteMessage} />
+                        return <EstablishmentCard {...props}
+                        establishments={this.state.establishments}
+                        //  messages={this.state.messages}
+                        //  addMessage={this.addMessage}
+                        //  deleteMessage={this.deleteMessage}
+                          />
                     } else {
                         return <Redirect to="/login" />
                     }

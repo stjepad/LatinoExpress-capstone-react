@@ -160,20 +160,6 @@
   "messages": [
     {
       "username": "moon",
-      "message": "hello!",
-      "date": 1536868575300,
-      "establishmentID": 1,
-      "id": 6
-    },
-    {
-      "username": "moon",
-      "message": "mmmm sooo good",
-      "date": 1536871074348,
-      "establishmentID": 6,
-      "id": 8
-    },
-    {
-      "username": "moon",
       "message": "wooooow",
       "date": 1536871084866,
       "establishmentID": 8,
@@ -220,6 +206,62 @@
       "date": 1536938735029,
       "establishmentID": 8,
       "id": 16
+    },
+    {
+      "username": "moon",
+      "message": "today was living hell",
+      "date": 1536957347269,
+      "establishmentID": 1,
+      "id": 17
+    },
+    {
+      "username": "moon",
+      "message": "khjfbskhb",
+      "date": 1536958229431,
+      "establishmentID": 6,
+      "id": 18
+    },
+    {
+      "username": "moon",
+      "message": "bloop",
+      "date": 1537208599171,
+      "establishmentID": 3,
+      "id": 19
+    },
+    {
+      "username": "moon",
+      "message": "chicken",
+      "date": 1537213909262,
+      "establishmentID": 3,
+      "id": 20
+    },
+    {
+      "username": "moon",
+      "message": "chicken nugget",
+      "date": 1537213917521,
+      "establishmentID": 3,
+      "id": 21
+    },
+    {
+      "username": "moon",
+      "message": "mmmmmiiiiiwwww",
+      "date": "",
+      "establishmentID": 3,
+      "id": 22
+    },
+    {
+      "username": "moon",
+      "message": "state",
+      "date": 1537214238421,
+      "establishmentID": 3,
+      "id": 23
+    },
+    {
+      "username": "moon",
+      "message": "bloop blaap",
+      "date": "",
+      "establishmentID": 3,
+      "id": 24
     }
   ],
   "typeOfestablishment": [

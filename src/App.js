@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ApplicationViews from './components/applicationViews'
+import ApplicationViews from './components/ApplicationViews'
 import NavBarForm from './components/navBar/NavBarForm'
 
 class App extends Component {
