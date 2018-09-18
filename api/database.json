@@ -41,6 +41,12 @@
       "username": "meow1",
       "password": "meow1",
       "id": 7
+    },
+    {
+      "email": "fakiewakie@asdf.com",
+      "username": "joden",
+      "password": "asdf",
+      "id": 8
     }
   ],
   "establishments": [
@@ -223,7 +229,7 @@
     },
     {
       "username": "moon",
-      "message": "zing!!",
+      "message": "zing!!!",
       "date": 1537286351334,
       "establishmentID": 3,
       "id": 21
@@ -262,6 +268,13 @@
       "date": 1537294753443,
       "establishmentID": 2,
       "id": 26
+    },
+    {
+      "username": "joden",
+      "message": "big yum yummer",
+      "date": 1537300925811,
+      "establishmentID": 1,
+      "id": 27
     }
   ],
   "typeOfestablishment": [

@@ -28,12 +28,14 @@
      margin-bottom: 1em;
      margin-left: 25%;
     margin-right: 25%;
+    border-radius: 5px;
  }
   #username, #password {
      margin-top: 1em;
      margin-bottom: 1em;
      margin-left: 25%;
     margin-right: 25%;
+    border-radius: 5px;
     /* background-color: whitesmoke; */
 
  }
@@ -41,6 +43,11 @@
  #login{
     margin-left: 1em;
     margin-bottom: 1em;
+    border-radius: 5px;
+ }
+
+ #register{
+    border-radius: 5px;
  }
 
  #loginButtons {
@@ -48,7 +55,9 @@
      margin-bottom: 1em;
      margin-left: 28%;
     margin-right: 20%;
+
  }
+
 
 
 

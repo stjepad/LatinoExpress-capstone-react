@@ -69,6 +69,7 @@ export default class ApplicationViews extends Component {
     //         }))
     // }
 
+
     render() {
 
         return (
@@ -76,7 +77,7 @@ export default class ApplicationViews extends Component {
             <React.Fragment>
 
 
-                {/* <NavBarForm/> */}
+                <NavBarForm/>
 
 
             <Route exact path="/" render={(props) => {
@@ -86,7 +87,9 @@ export default class ApplicationViews extends Component {
                     return <Redirect to="/login" />
                 }
             }} />
-            <Route exact path="/login" component={Login} />
+
+
+            {/* <Route exact path="/login" component={Login} /> */}
 
             {/* <Route exact path="/mainview" render={(props) => {
                 if (this.isAuthenticated()) {
