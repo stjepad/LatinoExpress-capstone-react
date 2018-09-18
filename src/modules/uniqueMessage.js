@@ -11,6 +11,12 @@ export default Object.create(null, {
             return fetch(`${remoteURL}/messages?establishmentID=${id}`).then(e => e.json())
         }
     },
+
+    getAllAll: {
+        value: function () {
+            return fetch(`${remoteURL}/messages`).then(e => e.json())
+        }
+    },
     delete: {
         value: (id) => {
             return fetch(`${remoteURL}/messages/${id}`, {

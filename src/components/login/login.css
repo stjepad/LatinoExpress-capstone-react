@@ -4,4 +4,51 @@
     width: 100vw;
     height: 100vh;
     background-repeat: round;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+
+
  }
+
+ .loginForm {
+
+    background: whitesmoke;
+    border-radius: 20px;
+    /* opacity: .8; */
+    width: 20em;
+    position: absolute;
+    margin-top: 20%;
+    opacity:.9;
+
+ }
+
+ #email {
+     margin-top: 2em;
+     margin-bottom: 1em;
+     margin-left: 25%;
+    margin-right: 25%;
+ }
+  #username, #password {
+     margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 25%;
+    margin-right: 25%;
+    /* background-color: whitesmoke; */
+
+ }
+
+ #login{
+    margin-left: 1em;
+    margin-bottom: 1em;
+ }
+
+ #loginButtons {
+    margin-top: 1em;
+     margin-bottom: 1em;
+     margin-left: 28%;
+    margin-right: 20%;
+ }
+
+
+

@@ -11,10 +11,16 @@ export default class MessageEdit extends Component {
     // }
 
     // Set initial state
+    componentDidMount() {
+        const message = this.props.messages.find(m => m.id === parseInt(this.props.match.params.messageId, 0))
+        this.setState(message)
+    }
     state = {
-            username:"",
-            message:"",
-            date: ""
+        username: "",
+        message: "",
+        date: "",
+        establishmentID: "",
+        id: ""
     }
 
     // Update state whenever an input field is edited
@@ -34,7 +40,7 @@ export default class MessageEdit extends Component {
             const Editmessage = {
                 // username: this.user().username,
                 message: this.state.message,
-                date: this.state.date
+                // date: this.state.date
 
             }
 
@@ -42,10 +48,6 @@ export default class MessageEdit extends Component {
             this.props.edit(this.props.match.params.messageId, Editmessage).then(() => this.props.history.goBack())
 
         }
-    componentDidMount() {
-        const message = this.props.messages.find(m => m.id === parseInt(this.props.match.params.messageId, 0)) || {}
-        this.setState(message)
-    }
 
 
     render() {
@@ -59,7 +61,8 @@ export default class MessageEdit extends Component {
                                className="edit-form"
                                onChange={this.handleFieldChange}
                                id="message"
-                               placeholder="Edited Message" defaultValue={this.state.message} />
+                               placeholder={this.state.message}
+                               defaultValue={this.state.message} />
 
                     </div>
                     <button type="submit" onClick={this.editTheMessage} className="btn btn-primary save-button">Save</button>

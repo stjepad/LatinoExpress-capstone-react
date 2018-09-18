@@ -6,7 +6,7 @@ import MessageManager from '../../modules/uniqueMessage';
 
 
 export default class EstablishmentCard extends Component {
-
+    // isAuthenticated = () => sessionStorage.getItem("credentials") !== null || localStorage.getItem("credentials") !== null
     state = {
         messages: []
     }
@@ -41,6 +41,12 @@ export default class EstablishmentCard extends Component {
             }))
 
     }
+
+    // editMessage = (id, messageObject) => MessageManager.patch(id, messageObject)
+    // .then(() => MessageManager.getAll())
+    // .then(messages => this.setState({
+    //     messages: messages
+    // }))
 
     // editMessage = (id, messageObject) => MessageManager.patch(id, messageObject)
     //     .then(() => MessageManager.getAll())
@@ -80,7 +86,7 @@ export default class EstablishmentCard extends Component {
                             addMessage={this.addMessage}
                             deleteMessage={this.deleteMessage} />
 
-                        {/* <Route path="/mainview/message-edit/:messageId(\d+)" render={(props) => {
+                        {/* <Route path="/establishments/:establishmentId(\d+)/message-edit/:messageId(\d+)" render={(props) => {
                             if (this.isAuthenticated()) {
                                 return <MessageEdit {...props}
                                 edit={this.editMessage}

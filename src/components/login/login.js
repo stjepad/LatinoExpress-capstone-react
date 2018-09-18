@@ -124,39 +124,43 @@ export default class Login extends Component {
         return (
 
             <form onSubmit={this.handleLogin} className="login">
-                <h1 className="h3 mb-3 font-weight-normal">Please Log In</h1>
-                <label htmlFor="inputEmail">
+            <div className ="loginForm">
+                {/* <h1 className="h3 mb-3 font-weight-normal">Please Log In</h1> */}
+                {/* <label htmlFor="inputEmail">
                     Email address
-                </label>
+                </label> */}
                 <input onChange={this.handleFieldChange} type="email"
                        id="email"
                        placeholder="Email address"
                        required="" autoFocus="" /><br />
-                <label htmlFor="inputUsername">
+                {/* <label htmlFor="inputUsername">
                     Username
-                </label>
+                </label> */}
                 <input onChange={this.handleFieldChange} type="username"
                        id="username"
                        placeholder="Username"
                        required="" /><br />
-                <label htmlFor="inputPassword">
+                {/* <label htmlFor="inputPassword">
                     Password
-                </label>
+                </label> */}
                 <input onChange={this.handleFieldChange} type="password"
                        id="password"
                        placeholder="Password"
                        required="" /><br />
-                <label htmlFor="rememberMe">
+                {/* <label htmlFor="rememberMe">
                     Remember Me
-                </label>
-                <input type="checkbox" name="RememberMe" value="Remember" onClick={this.changeRememberMe}/>
-                <button type="submit" onClick={(e) => this.registerUser(e)}>
+                </label> */}
+                {/* <input type="checkbox" name="RememberMe" value="Remember" onClick={this.changeRememberMe}/> */}
+
+                <div id="loginButtons">
+                <button type="submit" id="register" onClick={(e) => this.registerUser(e)}>
                     Register
                 </button>
-                <button type="submit" onClick={this.handleLogin}>
+                <button type="submit" id="login" onClick={this.handleLogin}>
                     Login
                 </button>
-
+                </div>
+            </div>
             </form>
         )
     }

@@ -45,7 +45,7 @@ export default class MessageList extends Component {
                                         </div>
                                         <button type="button"
                                             className="btn btn-success"
-                                            onClick={() => this.props.history.push(`/mainview/message-edit/${message.id}`)}
+                                            onClick={() => this.props.history.push(`/message-edit/${message.id}`)}
                                             className="card-link">Edit</button>
                                         {/* <button onClick={() => this.props.deleteMessage(this.props.message.id)}>Delete</button> */}
                                         <a href="#"

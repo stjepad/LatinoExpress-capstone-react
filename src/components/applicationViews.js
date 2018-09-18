@@ -7,7 +7,9 @@ import establishmentManager from '../modules/establishmentsManager'
 import MainView from './MainView'
 import EstablishmentCard from "./establishment/EstablishmentCard";
 import MessageManager from '../modules/uniqueMessage';
-import MessageEdit from '../components/messages/MessageEdit';
+import MessageEdit from './messages/MessageEdit';
+// import MessageList from './messages/MessageList';
+
 
 
 export default class ApplicationViews extends Component {
@@ -27,11 +29,11 @@ export default class ApplicationViews extends Component {
         })
     })
 
-    // MessageManager.getAll().then(messages => {
-    //     this.setState({
-    //         messages: messages
-    //     })
-    // })
+    MessageManager.getAllAll().then(messages => {
+        this.setState({
+            messages: messages
+        })
+    })
 
 
 
@@ -41,6 +43,12 @@ export default class ApplicationViews extends Component {
     // .then(() => MessageManager.getAll())
     // .then(messages => this.setState({
     //     messages: messages
+    // }))
+
+    // editAnimal = (id, animalObject) => AnimalManager.patch(id, animalObject)
+    // .then(() => AnimalManager.getAll())
+    // .then(animals => this.setState({
+    //     animals: animals
     // }))
 
     editMessage = (id, messageObject) => MessageManager.patch(id, messageObject)
@@ -66,7 +74,11 @@ export default class ApplicationViews extends Component {
         return (
 
             <React.Fragment>
+
+
                 {/* <NavBarForm/> */}
+
+
             <Route exact path="/" render={(props) => {
                 if (this.isAuthenticated()) {
                     return <MainView {...props}  establishments={this.state.establishments} />
@@ -76,13 +88,13 @@ export default class ApplicationViews extends Component {
             }} />
             <Route exact path="/login" component={Login} />
 
-            <Route exact path="/mainview" render={(props) => {
+            {/* <Route exact path="/mainview" render={(props) => {
                 if (this.isAuthenticated()) {
                     return <MainView {...props}  establishments={this.state.establishments}/>
                 } else {
                     return <Redirect to="/login" />
                 }
-            }} />
+            }} /> */}
             <Route path="/establishments/:establishmentId(\d+)" render={(props) => {
                 if (this.isAuthenticated()) {
                         return <EstablishmentCard {...props}
@@ -95,7 +107,7 @@ export default class ApplicationViews extends Component {
                         return <Redirect to="/login" />
                     }
                     }} />
-            <Route path="/mainview/message-edit/:messageId(\d+)" render={(props) => {
+            <Route path="/message-edit/:messageId(\d+)" render={(props) => {
                  if (this.isAuthenticated()) {
                         return <MessageEdit {...props}
                         edit={this.editMessage}
