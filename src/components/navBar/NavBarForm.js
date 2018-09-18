@@ -1,4 +1,6 @@
+
 import React from 'react';
+// import MessageManager from '../../modules/uniqueMessage';
 import {
   Collapse,
   Navbar,
@@ -11,9 +13,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-
-
-
 
 
 export default class NavBarForm extends React.Component {
@@ -31,6 +30,9 @@ export default class NavBarForm extends React.Component {
     });
   }
 
+
+
+
   logUserOut = () => {
     sessionStorage.removeItem("credentials")}
 
@@ -46,7 +48,7 @@ export default class NavBarForm extends React.Component {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Random</NavLink>
+                <NavLink href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
