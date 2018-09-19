@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 // import {Link} from "react-router-dom"
 import MessageManager from '../../modules/uniqueMessage';
 // import MessageForm from './MessageForm';
+import "../establishment/establishmentCard.css"
 
 
 
@@ -27,7 +28,9 @@ export default class MessageList extends Component {
                 <section className="messages">
                     {
                         this.props.uniqueMessages.map(message =>
-                            <div key={message.id} className="card">
+                            <div key={message.id}
+                            // className="card"
+                            >
                                 <div className="card-body">
                                     <div className="card-title">
                                         <div className="message-card">

@@ -47,6 +47,54 @@
       "username": "joden",
       "password": "asdf",
       "id": 8
+    },
+    {
+      "email": "laurenbmoon@gmail.com",
+      "username": "moonmoon",
+      "password": "sciip",
+      "id": 9
+    },
+    {
+      "email": "",
+      "username": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "email": "johnnathanwood@gmail.com",
+      "username": "1",
+      "password": "1",
+      "id": 11
+    },
+    {
+      "email": "fakeemail@fake.com",
+      "username": "fakeyfake",
+      "password": "yeet",
+      "id": 12
+    },
+    {
+      "email": "austin.gorman@gmail.com",
+      "username": "dingdong69",
+      "password": "d4nny",
+      "id": 13
+    },
+    {
+      "email": "brett@brett.com",
+      "username": "brett",
+      "password": "brett",
+      "id": 14
+    },
+    {
+      "email": "elusky@live.com",
+      "username": "urbutt",
+      "password": "butts43va",
+      "id": 15
+    },
+    {
+      "email": "al@me.com",
+      "username": "al",
+      "password": "al",
+      "id": 16
     }
   ],
   "establishments": [
@@ -166,13 +214,6 @@
   "messages": [
     {
       "username": "moon",
-      "message": "wooooow",
-      "date": 1536871084866,
-      "establishmentID": 8,
-      "id": 9
-    },
-    {
-      "username": "moon",
       "message": "zing!",
       "date": 1536871112326,
       "establishmentID": 2,
@@ -205,13 +246,6 @@
       "date": "",
       "establishmentID": 1,
       "id": 15
-    },
-    {
-      "username": "moon",
-      "message": "bloop",
-      "date": 1536938735029,
-      "establishmentID": 8,
-      "id": 16
     },
     {
       "username": "moon",
@@ -264,7 +298,7 @@
     },
     {
       "username": "moon",
-      "message": "bloop!",
+      "message": "bloopasdfsdf!",
       "date": 1537294753443,
       "establishmentID": 2,
       "id": 26
@@ -275,6 +309,139 @@
       "date": 1537300925811,
       "establishmentID": 1,
       "id": 27
+    },
+    {
+      "username": "moonmoon",
+      "message": "God save the childrens",
+      "date": 1537322981597,
+      "establishmentID": 1,
+      "id": 28
+    },
+    {
+      "username": "moonmoon",
+      "message": "Authentic and tasty treats!",
+      "date": 1537323009897,
+      "establishmentID": 4,
+      "id": 29
+    },
+    {
+      "username": "moonmoon",
+      "message": "I love Dejan more than any other man in the wooooooooorld.",
+      "date": 1537323042866,
+      "establishmentID": 7,
+      "id": 30
+    },
+    {
+      "username": "1",
+      "message": "OMG",
+      "date": 1537366726136,
+      "establishmentID": 2,
+      "id": 31
+    },
+    {
+      "username": "moon",
+      "message": "I'm done with the css for demo day!",
+      "date": 1537383988308,
+      "establishmentID": 2,
+      "id": 32
+    },
+    {
+      "username": "dingdong69",
+      "message": "something cool",
+      "date": 1537384360796,
+      "establishmentID": 5,
+      "id": 33
+    },
+    {
+      "username": "dingdong69",
+      "message": "White space at bottom issue\nShouldn't be able to edit or delete other user's messages",
+      "date": 1537384550898,
+      "establishmentID": 2,
+      "id": 34
+    },
+    {
+      "username": "brett",
+      "message": "DEJAN IS WHITE",
+      "date": 1537384916015,
+      "establishmentID": 7,
+      "id": 35
+    },
+    {
+      "username": "brett",
+      "message": "laskjdfa;dlkfj",
+      "date": 1537384947145,
+      "establishmentID": 5,
+      "id": 36
+    },
+    {
+      "username": "brett",
+      "message": "ghfhgfhf",
+      "date": 1537385004457,
+      "establishmentID": 1,
+      "id": 37
+    },
+    {
+      "username": "brett",
+      "message": "",
+      "date": "",
+      "establishmentID": 3,
+      "id": 38
+    },
+    {
+      "username": "brett",
+      "message": "hghghg",
+      "date": 1537385085281,
+      "establishmentID": 7,
+      "id": 39
+    },
+    {
+      "username": "brett",
+      "message": "bloop",
+      "date": 1537385303208,
+      "establishmentID": 3,
+      "id": 40
+    },
+    {
+      "username": "brett",
+      "message": "dfgvfds",
+      "date": 1537385327458,
+      "establishmentID": 1,
+      "id": 41
+    },
+    {
+      "username": "brett",
+      "message": "Fix the issue where when you delete a message and try to post a new message, the screen goes blank.  XOXOXO - Breezy",
+      "date": 1537385654051,
+      "establishmentID": 2,
+      "id": 42
+    },
+    {
+      "username": "urbutt",
+      "message": "pneumonoultramicroscopicsilicovolcaniconiosis",
+      "date": 1537385849453,
+      "establishmentID": 1,
+      "id": 43
+    },
+    {
+      "username": "urbutt",
+      "message": "white on yellow is a bit hard on the eyes.  when you try to edit a second time the text you're trying to edit does not show up.  styling, though honestly there is a minimalist aesthetic that i like so far.  maybe differentiate the user name from the post a bit more, or even put the user name below the post.  damn bro you don't have to write a god damned book. shit",
+      "date": 1537386122251,
+      "establishmentID": 2,
+      "id": 44
+    },
+    {
+      "username": "al",
+      "message": "Dude the torta and coke here was immaculate. The avacados reminded me of sex.",
+      "date": 1537386365845,
+      "establishmentID": 5,
+      "id": 45
+    },
+    {
+      "username": "moon",
+      "message": "see if you can make messages take up 50% VW and 100%VH, then throw a scroll in that mug!",
+      "date": 1537387466386,
+      "establishmentID": 2,
+      "id": 46
     }
   ],
   "typeOfestablishment": [

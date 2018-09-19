@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 // import "./Message.css"
 import MessageManager from '../../modules/uniqueMessage';
-
+import "../establishment/establishmentCard.css"
 export default class MessageForm extends Component {
 
     state = {
@@ -46,7 +46,8 @@ export default class MessageForm extends Component {
                 <form className="messageForm">
                     <div className="form-group">
                         <label htmlFor="NewMessage"></label>
-                        <textarea rows="10" cols="10"
+                        <textarea id="textArea"
+                        //  rows="10em" cols="10em"
                                className="form-control"
                                onChange={this.handleFieldChange}
                                id="addMessage"

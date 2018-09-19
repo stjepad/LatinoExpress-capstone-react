@@ -1,0 +1,15 @@
+#navBarColor{
+    background-color: #233d4d;
+}
+
+#navFont-logo, #navFont-home, #navFont-random, #navFont-logOut, #navFont-logout2{
+    color: whitesmoke;
+}
+
+#navFont-logout2{
+    background-color: #233d4d;
+}
+
+#navFont-logout3{
+    background-color: #233d4d;
+}

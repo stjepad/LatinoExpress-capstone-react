@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Messages from '../messages/Message'
 import MessageManager from '../../modules/uniqueMessage';
+import './establishmentCard.css'
 // import MessageEdit from '../messages/MessageEdit';
 // import { Route, Redirect } from 'react-router-dom'
 
@@ -63,23 +64,25 @@ export default class EstablishmentCard extends Component {
         const establishment = this.props.establishments.find(a => a.id === parseInt(this.props.match.params.establishmentId)) || {}
 
         return (
-            <section>
-                <div key={establishment.id} className="card">
-                    <h2>Name: {establishment.name}</h2>
-                    <p>Address: {establishment.address}</p>
-                    <p>Hours: {establishment.hours}</p>
-                    <p>Phone Number {establishment.phoneNumber}</p>
-                    <p>Description: {establishment.description}</p>
-                    <p>Establishment Type: {establishment.establishmentTypeID}</p>
-                    <p>Beer: {establishment.beer}</p>
-                    <p>Liquor: {establishment.liquor}</p>
-                    <p>Mixed Drinks: {establishment.mixDrinks}</p>
-                    <p>Free Salsa: {establishment.freeSalsa}</p>
-                    <p>Payment Options: {establishment.PaymentTypeID}</p>
+            <section className="section">
+                <div className="bleep">
+                <div key={establishment.id} className="cards">
+                    <h2 className="establishmentCardInfoCSS"> Name: {establishment.name}</h2>
+                    <p className="establishmentCardInfoCSS">Address: {establishment.address}</p>
+                    <p className="establishmentCardInfoCSS">Hours: {establishment.hours}</p>
+                    <p className="establishmentCardInfoCSS">Phone Number {establishment.phoneNumber}</p>
+                    <p className="establishmentCardInfoCSS">Description: {establishment.description}</p>
+                    <p className="establishmentCardInfoCSS">Establishment Type: {establishment.establishmentTypeID}</p>
+                    <p className="establishmentCardInfoCSS">Beer: {establishment.beer}</p>
+                    <p className="establishmentCardInfoCSS">Liquor: {establishment.liquor}</p>
+                    <p className="establishmentCardInfoCSS">Mixed Drinks: {establishment.mixDrinks}</p>
+                    <p className="establishmentCardInfoCSS">Free Salsa: {establishment.freeSalsa}</p>
+                    <p className="establishmentCardInfoCSS">Payment Options: {establishment.PaymentTypeID}</p>
 
 
                 </div>
-                <div>
+                </div>
+                <div className="bloop">
                     <React.Fragment>
                         <Messages  {...this.props}
                             uniqueMessages={this.state.messages}

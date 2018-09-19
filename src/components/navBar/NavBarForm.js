@@ -1,6 +1,7 @@
 
 import React from 'react';
 // import MessageManager from '../../modules/uniqueMessage';
+import './NavBarForm.css'
 import {
   Collapse,
   Navbar,
@@ -39,23 +40,27 @@ export default class NavBarForm extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Maíz</NavbarBrand>
+        <Navbar
+        // color="light"
+        light expand="md"
+        id="navBarColor"
+        >
+          <NavbarBrand id = "navFont-logo" href="/">Maíz</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink id="navFont-home" href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
+                <NavLink id="navFont-random" href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
+                <DropdownToggle id="navFont-logOut" nav caret>
                   LogOut
                 </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem
+                <DropdownMenu id="navFont-logout3" right>
+                  <DropdownItem id="navFont-logout2"
                   onClick={() => { this.logUserOut() }}
                   href="http://localhost:3000/login"
                   >

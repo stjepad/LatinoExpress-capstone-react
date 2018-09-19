@@ -9,6 +9,7 @@ import EstablishmentCard from "./establishment/EstablishmentCard";
 import MessageManager from '../modules/uniqueMessage';
 import MessageEdit from './messages/MessageEdit';
 // import MessageList from './messages/MessageList';
+import './ApplicationViews.css';
 
 
 
