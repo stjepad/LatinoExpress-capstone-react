@@ -4,8 +4,15 @@
     display:flex;
     color: whitesmoke;
     padding: .8em;
+    /* overflow-y: scroll;
+    height: 100vh; */
 }
 
 .background-div {
     background-color: #FCCA46;
+}
+
+.EstablismentLists{
+    overflow-y: scroll;
+    height: 100vh;
 }

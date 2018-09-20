@@ -10,12 +10,35 @@ import "../establishment/establishmentCard.css"
 export default class MessageList extends Component {
 
     state = {
-        messages: []
+        messages: [],
+        username: ''
     }
 
+    editable = function(message){
+        if(message.username === this.state.username){
+            return <div>
+                <button
+                                        type="button"
+                                            className="btn btn-success"
+                                            onClick={() => this.props.history.push(`/message-edit/${message.id}`)}
+                                            className="card-link">Edit
+                                            </button>
+                                        {/* <button onClick={() => this.props.deleteMessage(this.props.message.id)}>Delete</button> */}
+                                        <a href="#"
+                                            onClick={() => this.props.deleteMessage(message.id)
+                                                // .then(MessageManager.getAll('messages')
+                                                // .then(messages => {
+                                                //   this.setState({ messages: messages });
+                                                // }))
+                                            }
+                                            className="card-link">Delete</a>
+            </div>
+        }
+    }
 
     componentDidMount() {
-
+        let user = JSON.parse(sessionStorage.getItem("credentials"))
+        this.setState({username: user.username})
         MessageManager.getAll('messages')
             .then(messages => {
                 this.setState({ messages: messages });
@@ -46,19 +69,7 @@ export default class MessageList extends Component {
                                                 day: "numeric"
                                             })}</time>
                                         </div>
-                                        <button type="button"
-                                            className="btn btn-success"
-                                            onClick={() => this.props.history.push(`/message-edit/${message.id}`)}
-                                            className="card-link">Edit</button>
-                                        {/* <button onClick={() => this.props.deleteMessage(this.props.message.id)}>Delete</button> */}
-                                        <a href="#"
-                                            onClick={() => this.props.deleteMessage(message.id)
-                                                // .then(MessageManager.getAll('messages')
-                                                // .then(messages => {
-                                                //   this.setState({ messages: messages });
-                                                // }))
-                                            }
-                                            className="card-link">Delete</a>
+                                        {this.editable(message)}
                                     </div>
                                 </div>
                             </div>

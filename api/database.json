@@ -95,6 +95,18 @@
       "username": "al",
       "password": "al",
       "id": 16
+    },
+    {
+      "email": "meg@me.me",
+      "username": "megducharme",
+      "password": "12345",
+      "id": 17
+    },
+    {
+      "email": "jenna@j.com",
+      "username": "jennabsol",
+      "password": "1234",
+      "id": 18
     }
   ],
   "establishments": [
@@ -209,16 +221,233 @@
       "mixDrinks": "No",
       "freeSalsa": "No",
       "PaymentTypeID": 1
+    },
+    {
+      "id": 9,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 10,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 11,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 12,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 13,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 14,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 15,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 16,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 17,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 18,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 19,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 20,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 21,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 22,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 23,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
+    },
+    {
+      "id": 24,
+      "name": "Taqueria San Luis",
+      "address": "2624 Nolensville Pike, Nashville, TN 37211",
+      "hours": "shit",
+      "phoneNumber": "(615) 254-1010",
+      "description": "Quick food at the food truck!",
+      "establishmentTypeID": 2,
+      "beer": "No",
+      "liquor": "No",
+      "mixDrinks": "No",
+      "freeSalsa": "No",
+      "PaymentTypeID": 1
     }
   ],
   "messages": [
-    {
-      "username": "moon",
-      "message": "zing!",
-      "date": 1536871112326,
-      "establishmentID": 2,
-      "id": 10
-    },
     {
       "username": "moon",
       "message": "bllop",
@@ -267,13 +496,6 @@
       "date": 1537286351334,
       "establishmentID": 3,
       "id": 21
-    },
-    {
-      "username": "moon",
-      "message": "I can edit now BIATCH!",
-      "date": 1537294400696,
-      "establishmentID": 3,
-      "id": 22
     },
     {
       "username": "moon",
@@ -333,7 +555,7 @@
     },
     {
       "username": "1",
-      "message": "OMG",
+      "message": "bloop",
       "date": 1537366726136,
       "establishmentID": 2,
       "id": 31
@@ -442,6 +664,111 @@
       "date": 1537387466386,
       "establishmentID": 2,
       "id": 46
+    },
+    {
+      "username": "megducharme",
+      "message": "woo!",
+      "date": 1537390827547,
+      "establishmentID": 8,
+      "id": 47
+    },
+    {
+      "username": "moon",
+      "message": "dasfsadf",
+      "date": 1537391248792,
+      "establishmentID": 2,
+      "id": 48
+    },
+    {
+      "username": "moon",
+      "message": "bloop",
+      "date": 1537392052985,
+      "establishmentID": 8,
+      "id": 49
+    },
+    {
+      "username": "moon",
+      "message": "meow",
+      "date": 1537392057000,
+      "establishmentID": 8,
+      "id": 50
+    },
+    {
+      "username": "moon",
+      "message": "izoom",
+      "date": 1537393673055,
+      "establishmentID": 8,
+      "id": 51
+    },
+    {
+      "username": "moon",
+      "message": "new message",
+      "date": 1537394853409,
+      "establishmentID": 2,
+      "id": 52
+    },
+    {
+      "username": "moon",
+      "message": "meow!",
+      "date": 1537394944870,
+      "establishmentID": 2,
+      "id": 53
+    },
+    {
+      "username": "moon",
+      "message": "!work",
+      "date": 1537395032531,
+      "establishmentID": 1,
+      "id": 54
+    },
+    {
+      "username": "moon",
+      "message": "dfgds",
+      "date": 1537395065423,
+      "establishmentID": 2,
+      "id": 55
+    },
+    {
+      "username": "moon",
+      "message": "sf",
+      "date": 1537395147280,
+      "establishmentID": 2,
+      "id": 56
+    },
+    {
+      "username": "moon",
+      "message": "meow!",
+      "date": 1537395176572,
+      "establishmentID": 2,
+      "id": 57
+    },
+    {
+      "username": "moon",
+      "message": "message!!",
+      "date": 1537395365633,
+      "establishmentID": 2,
+      "id": 58
+    },
+    {
+      "username": "moon",
+      "message": "!",
+      "date": 1537395476677,
+      "establishmentID": 2,
+      "id": 59
+    },
+    {
+      "username": "moon",
+      "message": "fsag!",
+      "date": 1537395480530,
+      "establishmentID": 2,
+      "id": 60
+    },
+    {
+      "username": "jennabsol",
+      "message": "hello",
+      "date": 1537396731839,
+      "establishmentID": 8,
+      "id": 61
     }
   ],
   "typeOfestablishment": [
