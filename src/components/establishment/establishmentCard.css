@@ -9,7 +9,8 @@
 .establishmentCardInfoCSS{
     background-color: #fcca46;
     color: whitesmoke;
-    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4)
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    padding: .7em;
 }
 
 
@@ -84,4 +85,21 @@
     color: #2D7CF6;
     cursor: pointer;
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4)
+}
+.message-username{
+    font-style: italic;
+
+}
+.editInput{
+    width: 30em;
+    height: 20em;
+
+}
+
+.messageEditForm{
+    background-color: #fcca46;
+    justify-content: center;
+    display: flex;
+    margin-top: 7em;
+
 }

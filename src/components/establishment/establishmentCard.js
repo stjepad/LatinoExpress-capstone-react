@@ -67,17 +67,17 @@ export default class EstablishmentCard extends Component {
             <section className="section">
                 <div className="bleep">
                 <div key={establishment.id} className="cards">
-                    <h2 className="establishmentCardInfoCSS"> Name: {establishment.name}</h2>
-                    <p className="establishmentCardInfoCSS">Address: {establishment.address}</p>
-                    <p className="establishmentCardInfoCSS">Hours: {establishment.hours}</p>
-                    <p className="establishmentCardInfoCSS">Phone Number {establishment.phoneNumber}</p>
-                    <p className="establishmentCardInfoCSS">Description: {establishment.description}</p>
-                    <p className="establishmentCardInfoCSS">Establishment Type: {establishment.establishmentTypeID}</p>
-                    <p className="establishmentCardInfoCSS">Beer: {establishment.beer}</p>
-                    <p className="establishmentCardInfoCSS">Liquor: {establishment.liquor}</p>
-                    <p className="establishmentCardInfoCSS">Mixed Drinks: {establishment.mixDrinks}</p>
-                    <p className="establishmentCardInfoCSS">Free Salsa: {establishment.freeSalsa}</p>
-                    <p className="establishmentCardInfoCSS">Payment Options: {establishment.PaymentTypeID}</p>
+                    <h1 className="establishmentCardInfoCSS"> Name: {establishment.name}</h1>
+                    <h5 className="establishmentCardInfoCSS">Address: {establishment.address}</h5>
+                    <h5 className="establishmentCardInfoCSS">Hours: {establishment.hours}</h5>
+                    <h5 className="establishmentCardInfoCSS">Phone Number {establishment.phoneNumber}</h5>
+                    <h5 className="establishmentCardInfoCSS">Description: {establishment.description}</h5>
+                    <h5 className="establishmentCardInfoCSS">Establishment Type: {establishment.establishmentTypeID}</h5>
+                    <h5 className="establishmentCardInfoCSS">Beer: {establishment.beer}</h5>
+                    <h5 className="establishmentCardInfoCSS">Liquor: {establishment.liquor}</h5>
+                    <h5 className="establishmentCardInfoCSS">Mixed Drinks: {establishment.mixDrinks}</h5>
+                    <h5 className="establishmentCardInfoCSS">Free Salsa: {establishment.freeSalsa}</h5>
+                    <h5 className="establishmentCardInfoCSS">Payment Options: {establishment.PaymentTypeID}</h5>
 
 
                 </div>

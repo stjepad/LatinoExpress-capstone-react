@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-
+import '../establishment/establishmentCard.css'
 
 
 export default class MessageEdit extends Component {
@@ -39,7 +39,7 @@ export default class MessageEdit extends Component {
 
             const Editmessage = {
                 // username: this.user().username,
-                message: this.state.message,
+                message: this.state.messageEdit,
                 // date: this.state.date
 
             }
@@ -54,13 +54,13 @@ export default class MessageEdit extends Component {
 
         return (
             <React.Fragment>
-                <form className="messageForm">
-                    <div className="form-group">
+                <form className="messageEditForm">
+                    <div className="formEdit-group">
                         <label htmlFor="NewMessage"></label>
-                        <input type="text" rows="20" cols="50"
-                               className="edit-form"
+                        <input type="text"
+                               className="editInput"
                                onChange={this.handleFieldChange}
-                               id="message"
+                               id="messageEdit"
                                placeholder={this.state.message}
                                defaultValue={this.state.message} />
 
