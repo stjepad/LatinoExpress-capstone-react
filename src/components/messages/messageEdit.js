@@ -39,7 +39,7 @@ export default class MessageEdit extends Component {
 
             const Editmessage = {
                 // username: this.user().username,
-                message: this.state.messageEdit,
+                message: this.state.message,
                 // date: this.state.date
 
             }
@@ -60,7 +60,7 @@ export default class MessageEdit extends Component {
                         <input type="text"
                                className="editInput"
                                onChange={this.handleFieldChange}
-                               id="messageEdit"
+                               id="message"
                                placeholder={this.state.message}
                                defaultValue={this.state.message} />
 

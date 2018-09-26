@@ -20,7 +20,9 @@ export default class ApplicationViews extends Component {
 
     state = {
         establishments: [],
-        messages: []
+        messages: [],
+        allEstablishmentsTypes: [],
+        allPaymentTypes: []
     }
     componentDidMount() {
     establishmentManager.getAll().then(allEstablishments => {
@@ -36,6 +38,18 @@ export default class ApplicationViews extends Component {
         })
     })
 
+    establishmentManager.getAllEstablishmentTypes().then(allEstablishmentsTypes => {
+        // console.log(allEstablishmentsTypes)
+        this.setState({
+            allEstablishmentsTypes: allEstablishmentsTypes
+        })
+    })
+    establishmentManager.getAllPaymentTypes().then(allPaymentTypes => {
+        // console.log("word", allPaymentTypes)
+        this.setState({
+            allPaymentTypes: allPaymentTypes
+        })
+    })
 
 
     }
@@ -103,6 +117,8 @@ export default class ApplicationViews extends Component {
                 if (this.isAuthenticated()) {
                         return <EstablishmentCard {...props}
                         establishments={this.state.establishments}
+                        allEstablishmentsTypes={this.state.allEstablishmentsTypes}
+                        allPaymentTypes={this.state.allPaymentTypes}
                         //  messages={this.state.messages}
                         //  addMessage={this.addMessage}
                         //  deleteMessage={this.deleteMessage}
