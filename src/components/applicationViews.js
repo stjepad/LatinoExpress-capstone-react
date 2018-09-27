@@ -22,7 +22,13 @@ export default class ApplicationViews extends Component {
         establishments: [],
         messages: [],
         allEstablishmentsTypes: [],
-        allPaymentTypes: []
+        allPaymentTypes: [],
+        foodPoints: [],
+        tacoPoints: [],
+        margaritaPoints: [],
+        quesoPoints:[],
+        burritoPoints: [],
+        salsaPoints: []
     }
     componentDidMount() {
     establishmentManager.getAll().then(allEstablishments => {
@@ -51,9 +57,55 @@ export default class ApplicationViews extends Component {
         })
     })
 
+    establishmentManager.getAllfoodPoints().then(foodPoints => {
+        console.log("word", foodPoints)
+        this.setState({
+            foodPoints: foodPoints
+        })
+    })
 
+    establishmentManager.getAlltacoPoints().then(tacoPoints => {
+        console.log("word", tacoPoints)
+        this.setState({
+            tacoPoints: tacoPoints
+        })
+    })
+
+    establishmentManager.getAllmargaritaPoints().then(margaritaPoints => {
+        console.log("word", margaritaPoints)
+        this.setState({
+            margaritaPoints: margaritaPoints
+        })
+    })
+
+    establishmentManager.getAllquesoPoints().then(quesoPoints => {
+        console.log("word", quesoPoints)
+        this.setState({
+            quesoPoints: quesoPoints
+        })
+    })
+
+    establishmentManager.getAllburritoPoints().then(burritoPoints => {
+        console.log("word", burritoPoints)
+        this.setState({
+            burritoPoints: burritoPoints
+        })
+    })
+
+    establishmentManager.getAllsalsaPoints().then(salsaPoints => {
+        console.log("word", salsaPoints)
+        this.setState({
+            salsaPoints: salsaPoints
+        })
+    })
     }
 
+    allEstablishments = () => establishmentManager.getAll().then(allEstablishments => {
+        // console.log(allLocations)
+        this.setState({
+            establishments: allEstablishments
+        })
+    })
     // addMessage = message => MessageManager.post(message)
     // .then(() => MessageManager.getAll())
     // .then(messages => this.setState({
@@ -97,7 +149,15 @@ export default class ApplicationViews extends Component {
 
             <Route exact path="/" render={(props) => {
                 if (this.isAuthenticated()) {
-                    return <MainView {...props}  establishments={this.state.establishments} />
+                    return <MainView {...props}  establishments={this.state.establishments}
+                    foodPoints={this.state.foodPoints}
+                    tacoPoints={this.state.tacoPoints}
+                    margaritaPoints={this.state.margaritaPoints}
+                    quesoPoints={this.state.quesoPoints}
+                    burritoPoints={this.state.burritoPoints}
+                    salsaPoints={this.state.salsaPoints}
+
+                    />
                 } else {
                     return <Redirect to="/login" />
                 }
@@ -119,6 +179,7 @@ export default class ApplicationViews extends Component {
                         establishments={this.state.establishments}
                         allEstablishmentsTypes={this.state.allEstablishmentsTypes}
                         allPaymentTypes={this.state.allPaymentTypes}
+                        allEstablishments={this.allEstablishments}
                         //  messages={this.state.messages}
                         //  addMessage={this.addMessage}
                         //  deleteMessage={this.deleteMessage}
