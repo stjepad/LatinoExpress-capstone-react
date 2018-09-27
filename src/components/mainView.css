@@ -1,0 +1,14 @@
+.cover{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    background-color: #fcca46;
+}
+
+.voteMainView{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+    height: 100vh;
+}

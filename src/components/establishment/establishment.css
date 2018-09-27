@@ -4,15 +4,21 @@
     display:flex;
     color: whitesmoke;
     padding: .8em;
+    flex-direction: column;
+    flex-wrap: wrap;
     /* overflow-y: scroll;
     height: 100vh; */
 }
 
 .background-div {
     background-color: #FCCA46;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .EstablismentLists{
     overflow-y: scroll;
     height: 100vh;
+    width:15.4em;
 }

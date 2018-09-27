@@ -7,10 +7,22 @@
     position: absolute;
     display: flex;
     justify-content:center;
+    /* image: url(./Maiz.png); */
 
 
  }
+#logo {
+    content: url(../login/Maiz.png);
+    height:36%;
+    width: 22%;
+    background-color: whitesmoke;
+    display: flex;
+    position: absolute;
+    opacity:.9;
+    border-radius: 20px;
+    margin-top: 5%;
 
+}
  .loginForm {
 
     background: whitesmoke;
@@ -18,8 +30,9 @@
     /* opacity: .8; */
     width: 20em;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 30%;
     opacity:.9;
+
 
  }
 

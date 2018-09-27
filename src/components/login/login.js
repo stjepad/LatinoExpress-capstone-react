@@ -124,6 +124,7 @@ export default class Login extends Component {
         return (
 
             <form onSubmit={this.handleLogin} className="login">
+            <div id="logo"></div>
             <div className ="loginForm">
                 {/* <h1 className="h3 mb-3 font-weight-normal">Please Log In</h1> */}
                 {/* <label htmlFor="inputEmail">

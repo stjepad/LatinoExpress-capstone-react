@@ -49,12 +49,27 @@ export default class NavBarForm extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
+
               <NavItem>
                 <NavLink id="navFont-home" href="/">Home</NavLink>
               </NavItem>
+
+              <NavItem>
+                <NavLink id="navFont-home" href="/">All</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink id="navFont-home" href="/">Restaurants</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink id="navFont-home" href="/">Food-Trucks</NavLink>
+              </NavItem>
+
               <NavItem>
                 <NavLink id="navFont-random" href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
               </NavItem>
+
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle id="navFont-logOut" nav caret>
                   LogOut
