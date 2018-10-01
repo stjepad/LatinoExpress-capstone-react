@@ -252,7 +252,7 @@ export default class EstablishmentCard extends Component {
             <section className="section">
                 <div className="bleep">
                     <div key={establishment.id} className="cards">
-                        <h1 className="establishmentCardInfoCSS"> Name: {establishment.name}</h1>
+                        <h1 className="establishmentCardInfoCSS">  {establishment.name}</h1>
                         <h5 className="establishmentCardInfoCSS">Address: {establishment.address}</h5>
                         {/* <h5 className="establishmentCardInfoCSS">Hours: {establishment.hours}</h5> */}
                         <h5 className="establishmentCardInfoCSS">Phone Number {establishment.phoneNumber}</h5>
