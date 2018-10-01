@@ -113,6 +113,36 @@
       "username": "moonl",
       "password": "hun",
       "id": 19
+    },
+    {
+      "email": "jenniferlawson000@gmail.com",
+      "username": "janjan",
+      "password": "janjan",
+      "id": 20
+    },
+    {
+      "email": "lauren.moon@gmail.com",
+      "username": "banksmoon",
+      "password": "hephalumps",
+      "id": 21
+    },
+    {
+      "email": "meg@ducharme.com",
+      "username": "megducharme13",
+      "password": "12345",
+      "id": 22
+    },
+    {
+      "email": "tito",
+      "username": "tito",
+      "password": "tito",
+      "id": 23
+    },
+    {
+      "email": "dingdong69@gmail.com",
+      "username": "dingdong420",
+      "password": "password",
+      "id": 24
     }
   ],
   "establishments": [
@@ -128,7 +158,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 25,
+      "tacoPoints": 8,
+      "margaritaPoints": 5,
+      "quesoPoints": 6,
+      "burritoPoints": 1,
+      "salsaPoints": 1
     },
     {
       "id": 2,
@@ -142,7 +178,13 @@
       "liquor": "Yes",
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
-      "PaymentTypeID": 3
+      "PaymentTypeID": 3,
+      "foodPoints": 3,
+      "tacoPoints": 17,
+      "margaritaPoints": 3,
+      "quesoPoints": 1,
+      "burritoPoints": 3,
+      "salsaPoints": 18
     },
     {
       "id": 3,
@@ -156,7 +198,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": -1,
+      "tacoPoints": 8,
+      "margaritaPoints": 0,
+      "quesoPoints": -1,
+      "burritoPoints": 0,
+      "salsaPoints": 1
     },
     {
       "id": 4,
@@ -170,7 +218,13 @@
       "liquor": "Yes",
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
-      "PaymentTypeID": 3
+      "PaymentTypeID": 3,
+      "foodPoints": 5,
+      "tacoPoints": 1,
+      "margaritaPoints": 8,
+      "quesoPoints": 0,
+      "burritoPoints": 10,
+      "salsaPoints": 0
     },
     {
       "id": 5,
@@ -184,7 +238,14 @@
       "liquor": "Yes",
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
-      "PaymentTypeID": 3
+      "PaymentTypeID": 3,
+      "foodPoints": 2,
+      "tacoPoints": 7,
+      "margaritaPoints": 2,
+      "quesoPoints": 6,
+      "burritoPoints": 5,
+      "salsaPoints": 0,
+      "burittoPoints": 1
     },
     {
       "id": 6,
@@ -198,7 +259,13 @@
       "liquor": "Yes",
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
-      "PaymentTypeID": 3
+      "PaymentTypeID": 3,
+      "foodPoints": 26,
+      "tacoPoints": 0,
+      "margaritaPoints": 3,
+      "quesoPoints": 6,
+      "burritoPoints": 0,
+      "salsaPoints": 2
     },
     {
       "id": 7,
@@ -212,7 +279,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 8,
@@ -226,7 +299,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 9,
@@ -240,7 +319,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 7,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 10,
@@ -254,7 +339,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 1,
+      "burritoPoints": 1,
+      "salsaPoints": -1
     },
     {
       "id": 11,
@@ -268,7 +359,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 12,
@@ -282,7 +379,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 13,
@@ -296,7 +399,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 14,
@@ -310,7 +419,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 15,
@@ -324,7 +439,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 16,
@@ -338,7 +459,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 17,
@@ -352,7 +479,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 18,
@@ -366,7 +499,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 19,
@@ -380,7 +519,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 20,
@@ -394,7 +539,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 21,
@@ -408,7 +559,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 22,
@@ -422,7 +579,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 23,
@@ -436,7 +599,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     },
     {
       "id": 24,
@@ -450,7 +619,13 @@
       "liquor": "No",
       "mixDrinks": "No",
       "freeSalsa": "No",
-      "PaymentTypeID": 1
+      "PaymentTypeID": 1,
+      "foodPoints": 0,
+      "tacoPoints": 0,
+      "margaritaPoints": 0,
+      "quesoPoints": 0,
+      "burritoPoints": 0,
+      "salsaPoints": 0
     }
   ],
   "messages": [
@@ -491,7 +666,7 @@
     },
     {
       "username": "moon",
-      "message": "khjfbskhb",
+      "message": "dsmkvlkcv\\",
       "date": 1536958229431,
       "establishmentID": 6,
       "id": 18
@@ -526,7 +701,7 @@
     },
     {
       "username": "moon",
-      "message": "bloopasdfsdf!",
+      "message": "bloopasdfsdf!!!!!2323 meow skjbnfsdkjsf chicken",
       "date": 1537294753443,
       "establishmentID": 2,
       "id": 26
@@ -820,17 +995,10 @@
     },
     {
       "username": "moon",
-      "message": "dsf",
+      "message": "dsf ssss bloop meow ",
       "date": 1537453489951,
       "establishmentID": 1,
       "id": 69
-    },
-    {
-      "username": "moon",
-      "message": "meow",
-      "date": 1537453580953,
-      "establishmentID": 1,
-      "id": 70
     },
     {
       "username": "moon",
@@ -852,30 +1020,108 @@
       "date": 1537551040515,
       "establishmentID": 2,
       "id": 73
+    },
+    {
+      "username": "janjan",
+      "message": "I personally liked the ambiance of the restaurant. The dim lighting and the quite, but peaceful music really set the mood for my sacred ritual of consuming and masticating my food. This sacred ritual is something that must be carefully planned and executed. If one thing goes wrong, I could projectile vomit all the food I just consumed, and thus, be left hungry and weak. This restaurant definitely provided the necessary requirements for my needs. Definite thumbs up, bro!     ",
+      "date": 1538078649116,
+      "establishmentID": 5,
+      "id": 74
+    },
+    {
+      "username": "banksmoon",
+      "message": "boopbopp",
+      "date": 1538141351182,
+      "establishmentID": 2,
+      "id": 75
+    },
+    {
+      "username": "megducharme13",
+      "message": "This place is the 💣!",
+      "date": 1538145971294,
+      "establishmentID": 1,
+      "id": 76
+    },
+    {
+      "username": "",
+      "message": "i love tacos",
+      "date": 1538251409167,
+      "establishmentID": 1,
+      "id": 77
+    },
+    {
+      "username": "dingdong420",
+      "message": "KOOOOOOOL\n\n",
+      "date": 1538255788490,
+      "establishmentID": 3,
+      "id": 78
+    },
+    {
+      "username": "moon",
+      "message": "",
+      "date": "",
+      "establishmentID": 4,
+      "id": 79
+    },
+    {
+      "username": "moon",
+      "message": "bloop",
+      "date": 1538410004949,
+      "establishmentID": 4,
+      "id": 80
+    },
+    {
+      "username": "moon",
+      "message": "sooooo yummy! I cant believe my taste buds",
+      "date": 1538411164242,
+      "establishmentID": 2,
+      "id": 82
+    },
+    {
+      "username": "moon",
+      "message": "wooooow sooo good",
+      "date": 1538418972299,
+      "establishmentID": 1,
+      "id": 83
+    },
+    {
+      "username": "moon",
+      "message": "zing!!!",
+      "date": 1538419049149,
+      "establishmentID": 4,
+      "id": 84
     }
   ],
-  "typeOfestablishment": [
+  "establishmentType": [
     {
-      "establishmentTypeID": 1,
+      "id": 1,
       "type": "Restaurant"
     },
     {
-      "establishmentTypeID": 2,
+      "id": 2,
       "type": "Food Truck"
     }
   ],
   "paymentType": [
     {
-      "PaymentTypeID": 1,
+      "id": 1,
       "type": "Cash"
     },
     {
-      "PaymentTypeID": 2,
+      "id": 2,
       "type": "Credit/Debit Cards"
     },
     {
-      "PaymentTypeID": 3,
+      "id": 3,
       "type": "Cash or Credit/Debit Cards"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Food",
+      "establishmentID": 2,
+      "vote": 0,
+      "id": 1
     }
   ]
 }

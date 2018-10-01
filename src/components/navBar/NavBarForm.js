@@ -55,18 +55,6 @@ export default class NavBarForm extends React.Component {
               </NavItem>
 
               <NavItem>
-                <NavLink id="navFont-home" href="/">All</NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink id="navFont-home" href="/">Restaurants</NavLink>
-              </NavItem>
-
-              <NavItem>
-                <NavLink id="navFont-home" href="/">Food-Trucks</NavLink>
-              </NavItem>
-
-              <NavItem>
                 <NavLink id="navFont-random" href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
               </NavItem>
 

@@ -13,3 +13,18 @@
 #navFont-logout3{
     background-color: #233d4d;
 }
+
+#navFont-home{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#navFont-random{
+    padding-left: 2em;
+    padding-right: 4em;
+}
+
+#navFont-logo{
+    height: 50px;
+    width: 30px;
+    content: url(../../smallLogo.png);
+}

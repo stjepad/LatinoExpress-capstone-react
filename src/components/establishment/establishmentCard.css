@@ -10,9 +10,21 @@
     background-color: #fcca46;
     color: whitesmoke;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
-    padding: .7em;
+    padding: .4em;
 }
 
+/* .btn.btn-primary.save-button{
+width:30em;
+} */
+.saveEdit-button{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    padding: .5em;
+    width:30em;
+    border-radius: 5px;
+}
 
 .card-body {
 
@@ -61,7 +73,7 @@
 
 .bleep {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width:50%;
     background-color: #fcca46;
@@ -77,6 +89,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: #fcca46;
 }
 
 .card-link{
@@ -84,7 +97,8 @@
     border: transparent;
     color: #2D7CF6;
     cursor: pointer;
-    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4)
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+
 }
 .message-username{
     font-style: italic;
@@ -93,13 +107,76 @@
 .editInput{
     width: 30em;
     height: 20em;
-
+    border-radius: 5px;
 }
 
 .messageEditForm{
     background-color: #fcca46;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     margin-top: 7em;
+    margin-left: 33%;
 
+}
+
+.voteFoodForm{
+    background-color: #fcca46;
+    /* padding-left: 1.2em; */
+    /* padding-right: 1.2em; */
+    display: flex;
+    flex-wrap: wrap;
+    width:6em;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5em;
+
+
+}
+formEdit-group{
+    margin:auto;
+
+}
+
+.vote.roundrect{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 7em;
+    /* margin-left: 1.3em; */
+    /* padding-left:5%; */
+}
+
+.increment.up{
+    width:4em;
+    background-color: green;
+    color:whitesmoke;
+    margin:auto;
+}
+
+.increment.down{
+    width:4em;
+    background-color: red;
+    color:whitesmoke;
+    margin:auto;
+}
+
+.voteForm-group{
+    display:flex;
+    flex-wrap: wrap;
+    width:7em;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.count{
+    color: whitesmoke;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    margin:auto;
+}
+
+.categoryName{
+    color: whitesmoke;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+    margin:auto;
 }

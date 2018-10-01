@@ -5,24 +5,25 @@ import '../establishment/establishmentCard.css'
 export default class MessageEdit extends Component {
 
     // componentDidMount () {
-    //     const message = this.props.messages.find(a => a.id === parseInt(this.props.match.params.messageId, 0))
-    //     this.setState(message)
+        //     const message = this.props.messages.find(a => a.id === parseInt(this.props.match.params.messageId, 0))
+        //     this.setState(message)
 
-    // }
+        // }
 
-    // Set initial state
-    componentDidMount() {
-        const message = this.props.messages.find(m => m.id === parseInt(this.props.match.params.messageId, 0))
-        this.setState(message)
-    }
-    state = {
-        username: "",
-        message: "",
-        date: "",
-        establishmentID: "",
-        id: ""
-    }
+        // Set initial state
+        componentDidMount() {
+            const message = this.props.messages.find(m => m.id === parseInt(this.props.match.params.messageId, 0))
+            console.log(message)
+            this.setState(message)
+        }
 
+        state = {
+            username: "",
+            message: "",
+            date: "",
+            establishmentID: "",
+            id: ""
+        }
     // Update state whenever an input field is edited
     handleFieldChange = evt => {
         const stateToChange = {}
@@ -30,6 +31,9 @@ export default class MessageEdit extends Component {
         this.setState(stateToChange)
     }
 
+    consoleit = () => {
+        console.log(this.state)
+    }
 
 
     user = () => JSON.parse(sessionStorage.getItem("credentials"))
@@ -51,21 +55,21 @@ export default class MessageEdit extends Component {
 
 
     render() {
-
         return (
             <React.Fragment>
                 <form className="messageEditForm">
                     <div className="formEdit-group">
                         <label htmlFor="NewMessage"></label>
-                        <input type="text"
-                               className="editInput"
-                               onChange={this.handleFieldChange}
-                               id="message"
-                               placeholder={this.state.message}
-                               defaultValue={this.state.message} />
+                        <input
+                            type="textarea"
+                            className="editInput"
+                            onChange={this.handleFieldChange}
+                            id="message"
+                            //    placeholder={this.state.message}
+                            defaultValue={this.state.message} />
 
                     </div>
-                    <button type="submit" onClick={this.editTheMessage} className="btn btn-primary save-button">Save</button>
+                    <button type="submit" onClick={this.editTheMessage} className="saveEdit-button">Save</button>
                 </form>
                     </React.Fragment>
         )

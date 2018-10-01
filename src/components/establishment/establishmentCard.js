@@ -289,7 +289,7 @@ export default class EstablishmentCard extends Component {
                             // addMessage={this.addMessage}
                             // deleteMessage={this.deleteMessage}
                             /> */}
-
+                            <div className="bleep">
                             {/* food vote */}
                     <div className="voteFoodForm">
                         <div className="voteForm-group">
@@ -297,7 +297,7 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="foodPoints" className="increment up" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "up")}>up</button>
-                                <h4>Food</h4>
+                                <h5 className="categoryName">Food</h5>
                                 <div className="count">{establishment.foodPoints}</div>
                                 <button id="foodPoints" className="increment down" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "down")}>down</button>
 
@@ -312,7 +312,7 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="tacoPoints" className="increment up" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "up")}>up</button>
-                                <h4>Tacos</h4>
+                                <h5 className="categoryName">Tacos</h5>
                                 <div className="count">{establishment.tacoPoints}</div>
                                 <button id="tacoPoints" className="increment down" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "down")}>down</button>
 
@@ -327,7 +327,7 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="margaritaPoints" className="increment up" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "up")}>up</button>
-                                <h4>Margaritas</h4>
+                                <h5 className="categoryName">Margaritas</h5>
                                 <div className="count">{establishment.margaritaPoints}</div>
                                 <button id="margaritaPoints" className="increment down" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "down")}>down</button>
 
@@ -342,7 +342,7 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="quesoPoints" className="increment up" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "up")}>up</button>
-                                <h4>Queso Dip</h4>
+                                <h5 className="categoryName">Queso Dip</h5>
                                 <div className="count">{establishment.quesoPoints}</div>
                                 <button id="quesoPoints" className="increment down" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "down")}>down</button>
 
@@ -357,7 +357,7 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="burritoPoints" className="increment up" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "up")}>up</button>
-                                <h4>Burritos</h4>
+                                <h5 className="categoryName">Burritos</h5>
                                 <div className="count">{establishment.burritoPoints}</div>
                                 <button id="burritoPoints" className="increment down" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "down")}>down</button>
 
@@ -372,12 +372,13 @@ export default class EstablishmentCard extends Component {
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
                                 <button id="salsaPoints" className="increment up" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "up")}>up</button>
-                                <h4>Salsa</h4>
+                                <h5 className="categoryName">Salsa</h5>
                                 <div className="count">{establishment.salsaPoints}</div>
                                 <button id="salsaPoints" className="increment down" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "down")}>down</button>
 
                             </div>
                         </div>
+                    </div>
                     </div>
                 </React.Fragment>
             </section>
