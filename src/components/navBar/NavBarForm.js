@@ -55,7 +55,7 @@ export default class NavBarForm extends React.Component {
               </NavItem>
 
               <NavItem>
-                <NavLink id="navFont-random" href={`/establishments/${Math.floor((Math.random() * 7) + 1)}`}>Random</NavLink>
+                <NavLink id="navFont-random" href={`/establishments/${Math.floor((Math.random() * 40) + 1)}`}>Random</NavLink>
               </NavItem>
 
               <UncontrolledDropdown nav inNavbar>
