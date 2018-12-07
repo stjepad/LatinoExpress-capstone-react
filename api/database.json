@@ -143,6 +143,12 @@
       "username": "dingdong420",
       "password": "password",
       "id": 24
+    },
+    {
+      "email": "mkonabik@gmail.com",
+      "username": "matt",
+      "password": "none",
+      "id": 25
     }
   ],
   "establishments": [
@@ -159,7 +165,7 @@
       "mixDrinks": "No",
       "freeSalsa": "No",
       "PaymentTypeID": 1,
-      "foodPoints": 25,
+      "foodPoints": 28,
       "tacoPoints": 8,
       "margaritaPoints": 9,
       "quesoPoints": 6,
@@ -179,7 +185,7 @@
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
-      "foodPoints": 3,
+      "foodPoints": 15,
       "tacoPoints": 17,
       "margaritaPoints": 3,
       "quesoPoints": 1,
@@ -199,10 +205,10 @@
       "mixDrinks": "No",
       "freeSalsa": "No",
       "PaymentTypeID": 1,
-      "foodPoints": -1,
-      "tacoPoints": 8,
-      "margaritaPoints": 0,
-      "quesoPoints": -1,
+      "foodPoints": 1,
+      "tacoPoints": 9,
+      "margaritaPoints": 9,
+      "quesoPoints": 47,
       "burritoPoints": 0,
       "salsaPoints": 1
     },
@@ -220,10 +226,10 @@
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
       "foodPoints": 5,
-      "tacoPoints": 1,
+      "tacoPoints": 2,
       "margaritaPoints": 8,
       "quesoPoints": 0,
-      "burritoPoints": 17,
+      "burritoPoints": 16,
       "salsaPoints": 0
     },
     {
@@ -260,9 +266,9 @@
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
-      "foodPoints": 26,
-      "tacoPoints": 0,
-      "margaritaPoints": 3,
+      "foodPoints": 30,
+      "tacoPoints": -1,
+      "margaritaPoints": 4,
       "quesoPoints": 6,
       "burritoPoints": 0,
       "salsaPoints": 2
@@ -280,9 +286,9 @@
       "mixDrinks": "No",
       "freeSalsa": "No",
       "PaymentTypeID": 1,
-      "foodPoints": 2,
-      "tacoPoints": 7,
-      "margaritaPoints": 7,
+      "foodPoints": 3,
+      "tacoPoints": 6,
+      "margaritaPoints": 8,
       "quesoPoints": 7,
       "burritoPoints": 6,
       "salsaPoints": 6
