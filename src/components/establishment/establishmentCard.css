@@ -148,17 +148,21 @@ formEdit-group{
 }
 
 .increment.up{
-    width:4em;
-    background-color: green;
+    width:2em;
+    height: 2em;
+    background-color: #76AB59;
     color:whitesmoke;
     margin:auto;
+    border-radius: 100%;
 }
 
 .increment.down{
-    width:4em;
+    width:2em;
+    height: 2em;
     background-color: red;
     color:whitesmoke;
     margin:auto;
+    border-radius: 100%;
 }
 
 .voteForm-group{

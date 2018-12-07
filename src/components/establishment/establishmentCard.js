@@ -296,10 +296,11 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="foodPoints" className="increment up" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "up")}>up</button>
+                                <button id="foodPoints" className="increment up" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Food</h5>
                                 <div className="count">{establishment.foodPoints}</div>
-                                <button id="foodPoints" className="increment down" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "down")}>down</button>
+
+                                <button id="foodPoints" className="increment down" onClick={() => this.handleClick(establishment.foodPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
@@ -311,10 +312,10 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="tacoPoints" className="increment up" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "up")}>up</button>
+                                <button id="tacoPoints" className="increment up" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Tacos</h5>
                                 <div className="count">{establishment.tacoPoints}</div>
-                                <button id="tacoPoints" className="increment down" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "down")}>down</button>
+                                <button id="tacoPoints" className="increment down" onClick={() => this.handleClick1(establishment.tacoPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
@@ -326,10 +327,10 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="margaritaPoints" className="increment up" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "up")}>up</button>
+                                <button id="margaritaPoints" className="increment up" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Margaritas</h5>
                                 <div className="count">{establishment.margaritaPoints}</div>
-                                <button id="margaritaPoints" className="increment down" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "down")}>down</button>
+                                <button id="margaritaPoints" className="increment down" onClick={() => this.handleClick2(establishment.margaritaPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
@@ -341,10 +342,10 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="quesoPoints" className="increment up" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "up")}>up</button>
+                                <button id="quesoPoints" className="increment up" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Queso Dip</h5>
                                 <div className="count">{establishment.quesoPoints}</div>
-                                <button id="quesoPoints" className="increment down" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "down")}>down</button>
+                                <button id="quesoPoints" className="increment down" onClick={() => this.handleClick3(establishment.quesoPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
@@ -356,10 +357,10 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="burritoPoints" className="increment up" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "up")}>up</button>
+                                <button id="burritoPoints" className="increment up" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Burritos</h5>
                                 <div className="count">{establishment.burritoPoints}</div>
-                                <button id="burritoPoints" className="increment down" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "down")}>down</button>
+                                <button id="burritoPoints" className="increment down" onClick={() => this.handleClick4(establishment.burritoPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
@@ -371,10 +372,10 @@ export default class EstablishmentCard extends Component {
                             <label htmlFor="Food"></label>
                             {/* upvote/downvote buttons */}
                             <div className="vote roundrect">
-                                <button id="salsaPoints" className="increment up" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "up")}>up</button>
+                                <button id="salsaPoints" className="increment up" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "up")}><i className="fas fa-caret-up "></i></button>
                                 <h5 className="categoryName">Salsa</h5>
                                 <div className="count">{establishment.salsaPoints}</div>
-                                <button id="salsaPoints" className="increment down" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "down")}>down</button>
+                                <button id="salsaPoints" className="increment down" onClick={() => this.handleClick5(establishment.salsaPoints, establishment.id, "down")}><i className="fas fa-caret-down"></i></button>
 
                             </div>
                         </div>
