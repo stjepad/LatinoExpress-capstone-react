@@ -3,6 +3,9 @@
     background-color: #fcca46;
     margin: none;
     Padding:1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    /* width:50%; */
 
 }
 
@@ -42,7 +45,11 @@ width:30em;
     justify-content: center;
     position: fixed;
     bottom: 0;
-    width:50%
+    width:50vw;
+    height:27vh;
+    border: #fff;
+    border-style: solid;
+    border-radius: 10px;
 }
 
 #addMessage{
@@ -55,27 +62,27 @@ width:30em;
 .form-group {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 
 }
 
 .bloop{
     color: whitesmoke;
-    width:50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow-y: scroll;
     width: 50vw;
-    height: 67.3vh;
+    height: 67vh;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4)
 }
 
 .bleep {
     display:flex;
+    width:45vw;
+    flex-wrap: nowrap;
     flex-direction: row;
-    flex-wrap: wrap;
-    width:50%;
     background-color: #fcca46;
 }
 
@@ -88,8 +95,9 @@ width:30em;
 .section{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-direction: column; */
     background-color: #fcca46;
+    justify-content: space-between;
 }
 
 .card-link{
@@ -183,4 +191,9 @@ formEdit-group{
     color: whitesmoke;
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
     margin:auto;
+}
+
+.messageContainer{
+    display:flex;
+    /* width:50%; */
 }

@@ -386,12 +386,12 @@
       "mixDrinks": "No",
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
-      "foodPoints": 21,
+      "foodPoints": 128,
       "tacoPoints": 23,
       "margaritaPoints": 42,
-      "quesoPoints": 7,
+      "quesoPoints": 28,
       "burritoPoints": 88,
-      "salsaPoints": 1
+      "salsaPoints": -77
     },
     {
       "id": 13,
@@ -1401,13 +1401,6 @@
       "date": "",
       "establishmentID": 4,
       "id": 79
-    },
-    {
-      "username": "moon",
-      "message": "bloop",
-      "date": 1538410004949,
-      "establishmentID": 4,
-      "id": 80
     },
     {
       "username": "moon",

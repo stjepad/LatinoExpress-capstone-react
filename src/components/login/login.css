@@ -13,14 +13,14 @@
  }
 #logo {
     content: url(../login/Maiz.png);
-    height:36%;
-    width: 22%;
+    height:20em;
+    width: 20em;
     background-color: whitesmoke;
     display: flex;
     position: absolute;
     opacity:.9;
     border-radius: 20px;
-    margin-top: 5%;
+    margin-top: 4%;
 
 }
  .loginForm {

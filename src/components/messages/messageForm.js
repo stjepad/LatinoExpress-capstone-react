@@ -43,7 +43,7 @@ export default class MessageForm extends Component {
     render() {
         return (
             <React.Fragment>
-                <form className="messageForm">
+                <form className="messageForm messageContainer">
                     <div className="form-group">
                         <label htmlFor="NewMessage"></label>
                         <textarea id="textArea"
