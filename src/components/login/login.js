@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import LoginManager from "../../modules/loginManager"
-import LoginCSS from "../login/login.css"
+import "./login.css"
 
 
 

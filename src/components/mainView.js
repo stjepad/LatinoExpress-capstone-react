@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import NavBarForm from './navBar/NavBarForm'
 import Establishment from './establishment/Establishment'
 import Vote from './vote/Vote'
 import TacosVote from './vote/VoteTacos'

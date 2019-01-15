@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 // import "./Message.css"
-import MessageManager from '../../modules/uniqueMessage';
+// import MessageManager from '../../modules/uniqueMessage';
 import "../establishment/establishmentCard.css"
 export default class MessageForm extends Component {
 

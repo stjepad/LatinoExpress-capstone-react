@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import ApplicationViews from '/components/ApplicationViews'
-import NavBarForm from '/components/navBar/NavBarForm'
-import Login from '/components/login/Login'
-import { Route, Redirect} from 'react-router-dom'
+import ApplicationViews from './components/ApplicationViews'
+import { Redirect} from 'react-router-dom'
 
 class App extends Component {
 
