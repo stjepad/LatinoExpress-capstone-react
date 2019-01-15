@@ -1,13 +1,13 @@
 import React, { Component } from "react"
-import Login from './login/Login'
+import Login from '/login/Login'
 import { Route, Redirect} from 'react-router-dom'
-import NavBarForm from './navBar/NavBarForm'
-import establishments from './establishment/Establishment'
+import NavBarForm from '/navBar/NavBarForm'
+import establishments from '/establishment/Establishment'
 import establishmentManager from '../modules/establishmentsManager'
 import MainView from './MainView'
-import EstablishmentCard from "./establishment/EstablishmentCard";
+import EstablishmentCard from "/establishment/EstablishmentCard";
 import MessageManager from '../modules/uniqueMessage';
-import MessageEdit from './messages/MessageEdit';
+import MessageEdit from '/messages/MessageEdit';
 // import MessageList from './messages/MessageList';
 import './ApplicationViews.css';
 
