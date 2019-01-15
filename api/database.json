@@ -165,8 +165,8 @@
       "mixDrinks": "No",
       "freeSalsa": "No",
       "PaymentTypeID": 1,
-      "foodPoints": 28,
-      "tacoPoints": 8,
+      "foodPoints": 29,
+      "tacoPoints": 7,
       "margaritaPoints": 9,
       "quesoPoints": 6,
       "burritoPoints": 1,
@@ -185,10 +185,10 @@
       "mixDrinks": "Yes",
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
-      "foodPoints": 15,
-      "tacoPoints": 17,
-      "margaritaPoints": 3,
-      "quesoPoints": 1,
+      "foodPoints": 19,
+      "tacoPoints": 12,
+      "margaritaPoints": 4,
+      "quesoPoints": 3,
       "burritoPoints": 6,
       "salsaPoints": 18
     },
@@ -208,7 +208,7 @@
       "foodPoints": 1,
       "tacoPoints": 9,
       "margaritaPoints": 9,
-      "quesoPoints": 47,
+      "quesoPoints": 46,
       "burritoPoints": 0,
       "salsaPoints": 1
     },
@@ -328,8 +328,8 @@
       "PaymentTypeID": 3,
       "foodPoints": 9,
       "tacoPoints": 14,
-      "margaritaPoints": 25,
-      "quesoPoints": 7,
+      "margaritaPoints": 26,
+      "quesoPoints": 6,
       "burritoPoints": 1,
       "salsaPoints": 24
     },
@@ -347,9 +347,9 @@
       "freeSalsa": "Yes",
       "PaymentTypeID": 3,
       "foodPoints": 34,
-      "tacoPoints": 66,
+      "tacoPoints": 64,
       "margaritaPoints": 46,
-      "quesoPoints": 22,
+      "quesoPoints": 23,
       "burritoPoints": 1,
       "salsaPoints": -1
     },
@@ -368,7 +368,7 @@
       "PaymentTypeID": 3,
       "foodPoints": 113,
       "tacoPoints": 11,
-      "margaritaPoints": 54,
+      "margaritaPoints": 46,
       "quesoPoints": 12,
       "burritoPoints": 23,
       "salsaPoints": 7
@@ -391,7 +391,7 @@
       "margaritaPoints": 42,
       "quesoPoints": 28,
       "burritoPoints": 88,
-      "salsaPoints": -77
+      "salsaPoints": -78
     },
     {
       "id": 13,
@@ -790,7 +790,7 @@
       "tacoPoints": 11,
       "margaritaPoints": 10,
       "quesoPoints": 7,
-      "burritoPoints": 7,
+      "burritoPoints": 8,
       "salsaPoints": 5
     },
     {
@@ -1443,6 +1443,41 @@
       "date": 1538434168090,
       "establishmentID": 10,
       "id": 87
+    },
+    {
+      "username": "moon",
+      "message": "delicious tacos! Lengua tacos yumm!",
+      "date": 1546895901024,
+      "establishmentID": 9,
+      "id": 88
+    },
+    {
+      "username": "moon",
+      "message": "sooo goood",
+      "date": 1546897710210,
+      "establishmentID": 12,
+      "id": 89
+    },
+    {
+      "username": "moon",
+      "message": "i loved it!",
+      "date": 1546900557038,
+      "establishmentID": 1,
+      "id": 90
+    },
+    {
+      "username": "moon",
+      "message": "food is great!",
+      "date": 1546956915228,
+      "establishmentID": 2,
+      "id": 91
+    },
+    {
+      "username": "moon",
+      "message": "bloop",
+      "date": 1546964262100,
+      "establishmentID": 2,
+      "id": 92
     }
   ],
   "establishmentType": [

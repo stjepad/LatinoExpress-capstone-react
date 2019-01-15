@@ -1,4 +1,4 @@
-const remoteURL = "http://localhost:5002"
+const remoteURL = "https://maiz-server.herokuapp.com"
 
 export default Object.create(null, {
     get: {

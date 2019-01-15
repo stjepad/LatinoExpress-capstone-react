@@ -1,9 +1,9 @@
-const remoteURL = "http://localhost:5002"
+const remoteURL = "https://maiz-server.herokuapp.com"
 
 export default Object.create(null, {
     getUserSuggestionTrip: {
         value: (id) => {
-            return fetch(`http://localhost:5002/establishments?userId=${id}&_expand=group`).then(e =>
+            return fetch(`${remoteURL}/establishments?userId=${id}&_expand=group`).then(e =>
                 e.json()
             );
         }
