@@ -3,7 +3,7 @@ import './App.css';
 import ApplicationViews from './components/ApplicationViews'
 import { Redirect} from 'react-router-dom'
 
-class App extends Component {
+export default class App extends Component {
 
   isAuthenticated = () => sessionStorage.getItem("credentials") !== null || localStorage.getItem("credentials") !== null
 
@@ -25,6 +25,6 @@ class App extends Component {
   }
 }
 
-export default App;
+// export default App;
 
 
