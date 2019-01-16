@@ -16,7 +16,10 @@ class LatinoExpress extends Component {
       <React.Fragment>
         {
         !this.isAuthenticated() &&
-                <Route exact path="/login" component={Login} />
+                // <Route exact path="/login" component={Login} />
+                <Route exact path="/login" render={(props) => {
+                  return <Login {...props} />
+              }} />
         }
         {
         <App isAuthenticated={this.isAuthenticated}/>
