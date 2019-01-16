@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import ApplicationViews from './components/ApplicationViews'
 import { Redirect} from 'react-router-dom'
+import Login from './components/login/Login'
+
+
 
 export default class App extends Component {
 
