@@ -145,7 +145,7 @@ export default class ApplicationViews extends Component {
                 <NavBarForm/>
 
 
-            <Route exact path="/" render={(props) => {
+            <Route exact path="/userpage" render={(props) => {
                 if (this.isAuthenticated()) {
                     return <MainView {...props}  establishments={this.state.establishments}
                     foodPoints={this.state.foodPoints}
@@ -157,7 +157,7 @@ export default class ApplicationViews extends Component {
 
                     />
                 } else {
-                    return <Redirect to="/login" />
+                    return <Redirect to="/" />
                 }
             }} />
 

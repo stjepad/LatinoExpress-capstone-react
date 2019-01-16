@@ -45,13 +45,13 @@ export default class NavBarForm extends React.Component {
         light expand="md"
         id="navBarColor"
         >
-          <NavbarBrand id = "navFont-logo" href="/">Maíz</NavbarBrand>
+          <NavbarBrand id = "navFont-logo" href="/userpage">Maíz</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
 
               <NavItem>
-                <NavLink id="navFont-home" href="/">Home</NavLink>
+                <NavLink id="navFont-home" href="/userpage">Home</NavLink>
               </NavItem>
 
               <NavItem>
@@ -65,7 +65,7 @@ export default class NavBarForm extends React.Component {
                 <DropdownMenu id="navFont-logout3" right>
                   <DropdownItem id="navFont-logout2"
                   onClick={() => { this.logUserOut() }}
-                  href="http://localhost:3000/login"
+                  href="http://localhost:3000/"
                   >
                     LogOut
                   </DropdownItem>

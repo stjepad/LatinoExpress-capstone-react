@@ -17,7 +17,7 @@ class LatinoExpress extends Component {
         {
         !this.isAuthenticated() &&
                 // <Route exact path="/login" component={Login} />
-                <Route exact path="/login" render={(props) => {
+                <Route exact path="/" render={(props) => {
                   return <Login {...props} />
               }} />
         }
