@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // import ApplicationViews from './components/ApplicationViews'
 // import NavBarForm from './components/navBar/NavBarForm'
 import Login from './components/login/Login'
-import App from 'App'
+import App from './App'
 import { Route } from 'react-router-dom'
 
 class LatinoExpress extends Component {
